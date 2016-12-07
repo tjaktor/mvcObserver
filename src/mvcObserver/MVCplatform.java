@@ -16,10 +16,6 @@ public class MVCplatform {
 		
 		Controller controller = new Controller( model );
 		
-		model.registerObserver(view1);
-		model.registerObserver(view2);
-		model.registerObserver(view3);
-		
 		try ( Scanner scanner = new Scanner(System.in) )
 		{			
 			do
